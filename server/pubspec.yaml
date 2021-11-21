@@ -6,7 +6,9 @@ environment:
   sdk: '>=2.14.4 <3.0.0'
 
 
-# dependencies:
+dependencies:
+  shelf_modular: ^1.0.0
+  dartz: ^0.10.0
 #   path: ^1.8.0
 
 dev_dependencies:
