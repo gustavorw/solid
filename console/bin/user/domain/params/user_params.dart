@@ -1,7 +1,7 @@
 import '../../../core/entities/user_entity.dart';
 
-class DataParams {
+class UserParams {
   final UserEntity user;
 
-  DataParams(this.user);
+  UserParams(this.user);
 }
