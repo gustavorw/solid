@@ -2,7 +2,7 @@ import '../entities/user_entity.dart';
 import '../errors/storage_error.dart';
 import 'i_local_storage.dart';
 
-class LocalStorage implements ILocalStorage {
+class LocalStorageInMemory implements ILocalStorage {
   UserEntity? db;
 
   @override

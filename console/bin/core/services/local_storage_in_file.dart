@@ -4,7 +4,7 @@ import '../entities/user_entity.dart';
 import '../errors/storage_error.dart';
 import 'i_local_storage.dart';
 
-class LocalStorageJson implements ILocalStorage {
+class LocalStorageInFile implements ILocalStorage {
   late File file =
       File('C:/Users/gusta/Desktop/solid/console/bin/core/services/db.json');
 
